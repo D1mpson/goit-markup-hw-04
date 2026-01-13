@@ -208,11 +208,11 @@ h3{
     padding-bottom: 120px;
 }
 
+
 .portfolio-li p{
     text-align: left;
     margin-left: 16px;
     margin-right: 16px;
-    margin-bottom: 32px;
 }
 
 .portfolio-li h3 {
@@ -302,3 +302,37 @@ h3{
     display: flex;
     flex-direction: column;
 }
+
+.portfolio-overlay{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.portfolio-overlay-p{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px 32px 0 32px;
+    position: absolute;
+    background: #4d5ae5;
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.portfolio-overlay-p p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    color: #F4F4FD;
+}
+
+.portfolio-overlay:hover .portfolio-overlay-p{
+    transform: translateY(0);
+}
+
+
+
+
+
