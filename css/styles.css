@@ -93,15 +93,17 @@ h3{
 
 .nav-a {
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .nav-a-active{
     color: #404bbf;
+    padding: 24px 0;
 }
 
 .nav-a:hover,
 .nav-a:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .nav-a-active::after{
@@ -117,7 +119,6 @@ h3{
 }
 
 .address {
-    color: #434455;
     font-style: normal;
     font-weight: 400;
 }
@@ -129,12 +130,14 @@ h3{
 
 
 .address-link{
-    color: #2e2f42;
+    color: #434455;
+    transition: color 120ms ease-in-out;
+    padding: 24px 0;
 }
 
 .address-link:hover,
 .address-link:focus{
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .background-title{
@@ -172,14 +175,11 @@ h3{
 
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
-    transition-property: background-color;
+    transition: background-color 120ms ease-in-out;
 }
 
 .order-service-button:hover{
     background-color: #404bbf;
-    transition-duration: 120ms;
-    transition-timing-function: ease-in-out;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .section-fitst{
@@ -247,6 +247,11 @@ h3{
 
 .portfolio-p {
     padding-bottom: 32px;
+}
+
+.portfolio-li:hover{
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        background: #fff;
 }
 
 
@@ -382,6 +387,11 @@ h3{
     justify-content: center;
     height: 40px;
     width: 40px;
+    transition: background-color 120ms ease-in-out;
+}
+
+.social-media-link:hover {
+    background-color: #404bbf;
 }
 
 .social-media-svg{
@@ -404,7 +414,13 @@ h3{
     justify-content: center;
     height: 40px;
     width: 40px;
+
+    transition: background-color 120ms ease-in-out;
 }
+.social-media-link-footer:hover {
+    background-color: #31d0aa;
+}
+
 
 .social-media-ul-footer{
     padding-top: 16px;
