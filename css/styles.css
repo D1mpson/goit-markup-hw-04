@@ -1,0 +1,289 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    background-color: #ffffff;
+    margin: 0;
+    font-weight: 500;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+
+
+.logo-header {
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #2e2f42;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    margin-right: 76px;
+}
+
+.accent{
+    color: #4D5AE5;
+}
+
+.nav{
+    display: flex;
+    text-align: center;
+}
+
+
+.nav-ul {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-a {
+    color: #2e2f42;
+}
+
+
+
+.nav-a:hover,
+.nav-a:focus {
+    color: #4D5AE5;
+}
+
+.address {
+    color: #434455;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.address-ul{
+    display: flex;
+    gap: 40px;
+}
+
+
+.address-link{
+    color: #2e2f42;
+}
+
+.address-link:hover,
+.address-link:focus{
+    color: #4D5AE5;
+}
+
+.background-title{
+    background-color: #2e2f42;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    padding-bottom: 48px;
+    max-width: 500px;
+}
+
+.order-service-button{
+    padding: 16px 32px;
+    border: 0px;
+    background-color: #4d5ae5;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+}
+
+.section-fitst{
+    margin: 120px auto;
+}
+
+.section-fitst-ul {
+    display: flex;
+    gap: 24px;
+}
+
+.our-team{
+    text-align: center;
+    padding-bottom: 72px;
+}
+
+.managers{
+    display: flex;
+    text-align: center;
+    gap: 24px;
+    justify-content: center;
+}
+
+.manager-color {
+    background-color: #fff;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.portfolio{
+    text-align: center;
+    margin: 120px auto 0;
+}
+
+.portfolio-ul{
+    display: flex;
+    row-gap: 48px;
+    column-gap: 24px;
+    padding-top: 72px;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+}
+
+.portfolio-li p{
+    text-align: left;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 32px;
+}
+
+.portfolio-li h3 {
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;;
+}
+
+.portfolio-border{
+    border: 1px solid #e7e9fc;;
+    border-top: transparent;
+}
+
+.portfolio-p {
+    padding-bottom: 32px;
+}
+
+
+.section-second{
+    background-color: #f4f4fd;
+}
+
+.footer{
+    background-color: #2e2f42;
+}
+
+.logo-footer {
+    padding-top: 100px;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #F4F4FD;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+}
+
+.footer-text{
+    color: #fff;
+    max-width: 300px;
+    padding: 0;
+}
+
+.conteiner {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-conteiner{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 24px auto;
+    align-items: center;
+}
+
+.title-conteiner{
+    text-align: center;
+    padding: 188px 0;
+}
+
+.first-conteiner{
+    display: flex;
+    padding: 120px auto;
+}
+
+.second-conteiner{
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.manager-text-conteiner{
+    padding: 32px;
+}
+
+.conteiner-portfolio{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer-conteiner{
+    min-height: 312px;
+    display: flex;
+    flex-direction: column;
+}
