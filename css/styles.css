@@ -120,6 +120,13 @@ h3{
 
 .background-title{
     background-color: #2e2f42;
+    margin: 0 auto;
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Hero-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .title{
@@ -147,6 +154,14 @@ h3{
 
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
+    transition-property: background-color;
+}
+
+.order-service-button:hover{
+    background-color: #404bbf;
+    transition-duration: 120ms;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .section-fitst{
