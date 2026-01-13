@@ -374,10 +374,7 @@ header{
 }
 
 .icon{
-
     fill: #2E2F42;
-    fill-opacity: #4D5AE5;
-
 }
 
 .section-first-box{
@@ -446,15 +443,3 @@ header{
     display: flex;
     gap:16px;
 }
-
-.footer-con-first{
-    margin-right: 0 120px 0 0;
-}
-
-
-
-
-
-
-
-
